@@ -280,7 +280,7 @@ const ChatBot = () => {
       unmatchedCount.current = 0;
     } else {
       response =
-        "Sorry, I don't have an answer for that. Please contact support.";
+        "Sorry, Did not understand your query!";
       unmatchedCount.current += 1;
     }
 
